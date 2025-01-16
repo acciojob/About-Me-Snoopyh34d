@@ -1,1 +1,28 @@
 
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+div{
+    border: 1px solid;
+}
+.personal-page{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
