@@ -1,28 +1,36 @@
-
-*{
-    padding: 0;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    font-family: Arial;
-}
-div{
-    border: 1px solid;
-}
-.personal-page{
-    display: flex;
-    flex-direction: row;
+    padding: 20px;
+    background-color: #f4f4f4;
 }
 
-.left{
-    display: flex;
-    flex-direction: column;
-    padding:10px;
-}
-.profile{
-    display: flex;
-    flex-direction: row;
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-img{
-    width: 100px;
-    height: 100px;
+h2 {
+    color: #333;
+}
+
+.skill {
+    margin: 10px 0;
+}
+
+.progress-bar {
+    background: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 20px;
+    background: #76c7c0;
+    width: 0; /* This will be set inline in HTML */
+    transition: width 0.5s;
 }

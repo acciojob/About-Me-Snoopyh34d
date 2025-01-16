@@ -1,48 +1,60 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/AccioJob Exercise/Frontend 1/Jan-16th/style.css">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
 </head>
 <body>
-    <div class="personal-page">
-        <div class="left">
-            <div class="profile">
-                <img src="/Day 1/d1/Pictures/Part 1/Cat.jpg" alt="profile Pictures">
-                <div class="name-info">
-                    <p> <b>Name:</b> Ayush Pandey</p>
-                    <p><b>Profile: </b>Web Devlopment</p>
-                    <p><b>Email: </b>gyamuayush14@gmail.com</p>
+    <div class="container">
+        <section id="name">
+            <h2>Name</h2>
+            <p>Shubham Bhola</p> <!-- Replace with your full name -->
+        </section>
+
+        <section id="email">
+            <h2>Email</h2>
+            <p>your.email@example.com</p> <!-- Replace with your email address -->
+        </section>
+
+        <section id="profile">
+            <h2>Profile</h2>
+            <p>Software Developer</p> <!-- Replace with the profile you're applying for -->
+        </section>
+
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>I am a self-starter with a passion for adapting and evangelizing new technologies...</p> <!-- Brief description about yourself -->
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill">
+                <span>JavaScript</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div> <!-- Adjust percentage as needed -->
                 </div>
-                
             </div>
-            <div class="skills">
-                <div><p>React &#183; CSS &#183; JAVASCRIPT</p></div>
-                <div><p>NODEJS &#183; MONGODB</p></div>
-                <div><p>C/C++ &#183; PYTHON &#183; BATCH</p></div>
-                <div><p>AWS &#183; HADOP</p></div>
+            <div class="skill">
+                <span>React</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
             </div>
+            <div class="skill">
+                <span>MongoDB</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+            </div>
+            <!-- Add more skills as needed -->
+        </section>
 
-        </div>
-        <div class="right">
-            <h1>About me</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur 
-                adipisicing elit. Expedita laboriosam accusamus 
-                voluptatem architecto commodi a. Eaque quisquam odio 
-                accusamus molestiae expedita modi at nobis odit voluptates! 
-                Rem vitae, provident ad excepturi amet deleniti libero incidunt 
-                consectetur sapiente doloribus? Adipisci necessitatibus, 
-                eveniet modi incidunt voluptates sequi!</p>
-
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Atque adipisci, quaerat corporis exercitationem temporibus
-                voluptatibus magnam illo nostrum necessitatibus doloremque 
-                placeat labore deserunt velit quos, voluptatem vero iusto.
-                Voluptate eligendi expedita dolores deserunt assumenda!</p>
-        </div>
+        <section id="image">
+            <h2>Profile Picture</h2>
+            <img src="https://user-images.githubusercontent.com/59690052/161985536-.png" alt="Profile Picture" />
+        </section>
     </div>
 </body>
 </html>
